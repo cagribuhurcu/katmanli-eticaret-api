@@ -1,0 +1,17 @@
+C:\Users\cgr_g\Desktop\MVC\StokProject\StokProject.Repositories\obj\Debug\net6.0\StokProject.Repositories.csproj.AssemblyReference.cache
+C:\Users\cgr_g\Desktop\MVC\StokProject\StokProject.Repositories\obj\Debug\net6.0\StokProject.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cgr_g\Desktop\MVC\StokProject\StokProject.Repositories\obj\Debug\net6.0\StokProject.Repositories.AssemblyInfoInputs.cache
+C:\Users\cgr_g\Desktop\MVC\StokProject\StokProject.Repositories\obj\Debug\net6.0\StokProject.Repositories.AssemblyInfo.cs
+C:\Users\cgr_g\Desktop\MVC\StokProject\StokProject.Repositories\obj\Debug\net6.0\StokProject.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\cgr_g\Desktop\MVC\StokProject\StokProject.Repositories\bin\Debug\net6.0\StokProject.Repositories.deps.json
+C:\Users\cgr_g\Desktop\MVC\StokProject\StokProject.Repositories\bin\Debug\net6.0\StokProject.Repositories.runtimeconfig.json
+C:\Users\cgr_g\Desktop\MVC\StokProject\StokProject.Repositories\bin\Debug\net6.0\StokProject.Repositories.dll
+C:\Users\cgr_g\Desktop\MVC\StokProject\StokProject.Repositories\bin\Debug\net6.0\StokProject.Repositories.pdb
+C:\Users\cgr_g\Desktop\MVC\StokProject\StokProject.Repositories\bin\Debug\net6.0\StokProject.Entities.dll
+C:\Users\cgr_g\Desktop\MVC\StokProject\StokProject.Repositories\bin\Debug\net6.0\StokProject.Entities.pdb
+C:\Users\cgr_g\Desktop\MVC\StokProject\StokProject.Repositories\obj\Debug\net6.0\StokProject.Repositories.csproj.CopyComplete
+C:\Users\cgr_g\Desktop\MVC\StokProject\StokProject.Repositories\obj\Debug\net6.0\StokProject.Repositories.dll
+C:\Users\cgr_g\Desktop\MVC\StokProject\StokProject.Repositories\obj\Debug\net6.0\refint\StokProject.Repositories.dll
+C:\Users\cgr_g\Desktop\MVC\StokProject\StokProject.Repositories\obj\Debug\net6.0\StokProject.Repositories.pdb
+C:\Users\cgr_g\Desktop\MVC\StokProject\StokProject.Repositories\obj\Debug\net6.0\StokProject.Repositories.genruntimeconfig.cache
+C:\Users\cgr_g\Desktop\MVC\StokProject\StokProject.Repositories\obj\Debug\net6.0\ref\StokProject.Repositories.dll

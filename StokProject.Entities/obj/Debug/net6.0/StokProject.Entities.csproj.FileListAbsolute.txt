@@ -1,0 +1,12 @@
+C:\Users\cgr_g\Desktop\MVC\StokProject\StokProject.Entities\bin\Debug\net6.0\StokProject.Entities.deps.json
+C:\Users\cgr_g\Desktop\MVC\StokProject\StokProject.Entities\bin\Debug\net6.0\StokProject.Entities.dll
+C:\Users\cgr_g\Desktop\MVC\StokProject\StokProject.Entities\bin\Debug\net6.0\StokProject.Entities.pdb
+C:\Users\cgr_g\Desktop\MVC\StokProject\StokProject.Entities\obj\Debug\net6.0\StokProject.Entities.csproj.AssemblyReference.cache
+C:\Users\cgr_g\Desktop\MVC\StokProject\StokProject.Entities\obj\Debug\net6.0\StokProject.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cgr_g\Desktop\MVC\StokProject\StokProject.Entities\obj\Debug\net6.0\StokProject.Entities.AssemblyInfoInputs.cache
+C:\Users\cgr_g\Desktop\MVC\StokProject\StokProject.Entities\obj\Debug\net6.0\StokProject.Entities.AssemblyInfo.cs
+C:\Users\cgr_g\Desktop\MVC\StokProject\StokProject.Entities\obj\Debug\net6.0\StokProject.Entities.csproj.CoreCompileInputs.cache
+C:\Users\cgr_g\Desktop\MVC\StokProject\StokProject.Entities\obj\Debug\net6.0\StokProject.Entities.dll
+C:\Users\cgr_g\Desktop\MVC\StokProject\StokProject.Entities\obj\Debug\net6.0\refint\StokProject.Entities.dll
+C:\Users\cgr_g\Desktop\MVC\StokProject\StokProject.Entities\obj\Debug\net6.0\StokProject.Entities.pdb
+C:\Users\cgr_g\Desktop\MVC\StokProject\StokProject.Entities\obj\Debug\net6.0\ref\StokProject.Entities.dll

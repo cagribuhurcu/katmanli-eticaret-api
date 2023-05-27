@@ -1,0 +1,46 @@
+﻿@model Category
+
+@{
+    ViewData["Title"] = "AddCategory";
+}
+
+<h1>AddCategory</h1>
+
+<h4>Category</h4>
+
+<hr />
+
+<div class="col-lg-6 offset-3">
+    <div class="card">
+        <div class="card-header">
+            <strong class="card-title">Kategori Ekle</strong>
+        </div>
+        <div class="card-body">
+            <!-- Credit Card -->
+            <div id="pay-invoice">
+                <div class="card-body">
+                    <form asp-action="AddCategory" method="post" novalidate="novalidate">
+                        
+                        <div class="form-group">
+                            <label asp-for="CategoryName" class="control-label mb-1">Kategori Adı</label>
+                            <input asp-for="CategoryName" type="text" class="form-control" placeholder="Kategori adı">
+                        </div>
+                        <div class="form-group has-success">
+                            <label asp-for="Description" class="control-label mb-1">Açıklama</label>
+                            <input asp-for="Description" type="text" class="form-control cc-name valid" data-val="true" data-val-required="Açıklama girmek zorunlu" autocomplete="cc-name" aria-required="true" aria-invalid="false" aria-describedby="cc-name">
+                            <span class="help-block field-validation-valid" data-valmsg-for="cc-name" data-valmsg-replace="true"></span>
+                        </div>
+                        <div>
+                            <button id="payment-button" type="submit" class="btn btn-lg btn-info btn-block">
+                                <i class="fa fa-lock fa-lg"></i>&nbsp;
+                                <span id="payment-button-amount">Kategori Ekle</span>
+                                <span id="payment-button-sending" style="display:none;">Ekleniyor…</span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div> <!-- .card -->
+</div>
+

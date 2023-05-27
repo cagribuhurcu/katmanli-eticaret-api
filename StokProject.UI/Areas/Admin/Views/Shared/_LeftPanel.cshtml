@@ -1,0 +1,51 @@
+﻿<aside id="left-panel" class="left-panel">
+    <nav class="navbar navbar-expand-sm navbar-default">
+        <div id="main-menu" class="main-menu collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active">
+                    <a asp-controller="Admin" asp-action="Index" asp-area="Admin"><i class="menu-icon fa fa-laptop"></i>Anasayfa</a>
+                </li>
+
+                <li class="menu-item-has-children dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-cogs"></i>Kategori İşlemleri</a>
+                    <ul class="sub-menu children dropdown-menu">
+                        <li><i class="fa fa-puzzle-piece"></i><a asp-controller="Category" asp-action="Index" asp-area="Admin">Kategori Listele</a></li>
+                        <li><i class="fa fa-id-badge"></i><a asp-controller="Category" asp-action="AddCategory" asp-area="Admin">Kategori Ekle</a></li>
+                    </ul>
+                </li>
+
+                <li class="menu-item-has-children dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-cogs"></i>Ürün İşlemleri</a>
+                    <ul class="sub-menu children dropdown-menu">
+                        <li><i class="fa fa-puzzle-piece"></i><a asp-controller="Product" asp-action="Index" asp-area="Admin">Ürün Listele</a></li>
+                        <li><i class="fa fa-id-badge"></i><a asp-controller="Product" asp-action="AddProduct" asp-area="Admin">Ürün Ekle</a></li>
+                    </ul>
+                </li>
+
+                <li class="menu-item-has-children dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-cogs"></i>Tedarikçi İşlemleri</a>
+                    <ul class="sub-menu children dropdown-menu">
+                        <li><i class="fa fa-puzzle-piece"></i><a asp-controller="Supplier" asp-action="Index" asp-area="Admin">Tedarikçi Listele</a></li>
+                        <li><i class="fa fa-id-badge"></i><a asp-controller="Supplier" asp-action="AddSupplier" asp-area="Admin">Tedarikçi Ekle</a></li>
+                    </ul>
+                </li>
+
+                <li class="menu-item-has-children dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-cogs"></i>Kullanıcı İşlemleri</a>
+                    <ul class="sub-menu children dropdown-menu">
+                        <li><i class="fa fa-puzzle-piece"></i><a asp-controller="User" asp-action="Index" asp-area="Admin">Kullanıcı Listele</a></li>
+                        <li><i class="fa fa-id-badge"></i><a asp-controller="User" asp-action="AddUser" asp-area="Admin">Kullanıcı Ekle</a></li>
+                    </ul>
+                </li>
+
+                <li class="menu-item-has-children dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-cogs"></i>Sipariş İşlemleri</a>
+                    <ul class="sub-menu children dropdown-menu">
+                        <li><i class="fa fa-puzzle-piece"></i><a asp-controller="Order" asp-action="Index" asp-area="Admin">Sipariş Listele</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </nav>
+</aside>

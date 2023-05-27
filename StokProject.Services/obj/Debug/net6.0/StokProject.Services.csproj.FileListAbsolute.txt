@@ -1,0 +1,17 @@
+C:\Users\cgr_g\Desktop\MVC\StokProject\StokProject.Services\bin\Debug\net6.0\StokProject.Services.deps.json
+C:\Users\cgr_g\Desktop\MVC\StokProject\StokProject.Services\bin\Debug\net6.0\StokProject.Services.dll
+C:\Users\cgr_g\Desktop\MVC\StokProject\StokProject.Services\bin\Debug\net6.0\StokProject.Services.pdb
+C:\Users\cgr_g\Desktop\MVC\StokProject\StokProject.Services\obj\Debug\net6.0\StokProject.Services.csproj.AssemblyReference.cache
+C:\Users\cgr_g\Desktop\MVC\StokProject\StokProject.Services\obj\Debug\net6.0\StokProject.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cgr_g\Desktop\MVC\StokProject\StokProject.Services\obj\Debug\net6.0\StokProject.Services.AssemblyInfoInputs.cache
+C:\Users\cgr_g\Desktop\MVC\StokProject\StokProject.Services\obj\Debug\net6.0\StokProject.Services.AssemblyInfo.cs
+C:\Users\cgr_g\Desktop\MVC\StokProject\StokProject.Services\obj\Debug\net6.0\StokProject.Services.csproj.CoreCompileInputs.cache
+C:\Users\cgr_g\Desktop\MVC\StokProject\StokProject.Services\obj\Debug\net6.0\StokProject.Services.dll
+C:\Users\cgr_g\Desktop\MVC\StokProject\StokProject.Services\obj\Debug\net6.0\refint\StokProject.Services.dll
+C:\Users\cgr_g\Desktop\MVC\StokProject\StokProject.Services\obj\Debug\net6.0\StokProject.Services.pdb
+C:\Users\cgr_g\Desktop\MVC\StokProject\StokProject.Services\obj\Debug\net6.0\ref\StokProject.Services.dll
+C:\Users\cgr_g\Desktop\MVC\StokProject\StokProject.Services\bin\Debug\net6.0\StokProject.Entities.dll
+C:\Users\cgr_g\Desktop\MVC\StokProject\StokProject.Services\bin\Debug\net6.0\StokProject.Repositories.dll
+C:\Users\cgr_g\Desktop\MVC\StokProject\StokProject.Services\bin\Debug\net6.0\StokProject.Entities.pdb
+C:\Users\cgr_g\Desktop\MVC\StokProject\StokProject.Services\bin\Debug\net6.0\StokProject.Repositories.pdb
+C:\Users\cgr_g\Desktop\MVC\StokProject\StokProject.Services\obj\Debug\net6.0\StokProject.Services.csproj.CopyComplete

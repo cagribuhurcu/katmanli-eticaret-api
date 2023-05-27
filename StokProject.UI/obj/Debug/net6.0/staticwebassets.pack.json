@@ -1,0 +1,541 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\StokProject.UI.bundle.scp.css",
+      "PackagePath": "staticwebassets\\StokProject.UI.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\assets\\css\\cs-skin-elastic.css",
+      "PackagePath": "staticwebassets\\Content\\assets\\css\\cs-skin-elastic.css"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\assets\\css\\lib\\chosen\\chosen-sprite.png",
+      "PackagePath": "staticwebassets\\Content\\assets\\css\\lib\\chosen\\chosen-sprite.png"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\assets\\css\\lib\\chosen\\chosen-sprite@2x.png",
+      "PackagePath": "staticwebassets\\Content\\assets\\css\\lib\\chosen\\chosen-sprite@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\assets\\css\\lib\\chosen\\chosen.css",
+      "PackagePath": "staticwebassets\\Content\\assets\\css\\lib\\chosen\\chosen.css"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\assets\\css\\lib\\chosen\\chosen.min.css",
+      "PackagePath": "staticwebassets\\Content\\assets\\css\\lib\\chosen\\chosen.min.css"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\assets\\css\\lib\\datatable\\buttons.bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Content\\assets\\css\\lib\\datatable\\buttons.bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\assets\\css\\lib\\datatable\\buttons.dataTables.min.css",
+      "PackagePath": "staticwebassets\\Content\\assets\\css\\lib\\datatable\\buttons.dataTables.min.css"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\assets\\css\\lib\\datatable\\dataTables.bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Content\\assets\\css\\lib\\datatable\\dataTables.bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\assets\\css\\lib\\vector-map\\jqvmap.min.css",
+      "PackagePath": "staticwebassets\\Content\\assets\\css\\lib\\vector-map\\jqvmap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\Content\\assets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\assets\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\Content\\assets\\css\\style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\assets\\fonts\\icomoon\\icomoon.eot",
+      "PackagePath": "staticwebassets\\Content\\assets\\fonts\\icomoon\\icomoon.eot"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\assets\\fonts\\icomoon\\icomoon.svg",
+      "PackagePath": "staticwebassets\\Content\\assets\\fonts\\icomoon\\icomoon.svg"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\assets\\fonts\\icomoon\\icomoon.ttf",
+      "PackagePath": "staticwebassets\\Content\\assets\\fonts\\icomoon\\icomoon.ttf"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\assets\\fonts\\icomoon\\icomoon.woff",
+      "PackagePath": "staticwebassets\\Content\\assets\\fonts\\icomoon\\icomoon.woff"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\assets\\fonts\\icomoon\\index.html",
+      "PackagePath": "staticwebassets\\Content\\assets\\fonts\\icomoon\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\assets\\js\\dashboard.js",
+      "PackagePath": "staticwebassets\\Content\\assets\\js\\dashboard.js"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\assets\\js\\init\\chartjs-init.js",
+      "PackagePath": "staticwebassets\\Content\\assets\\js\\init\\chartjs-init.js"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\assets\\js\\init\\datatables-init.js",
+      "PackagePath": "staticwebassets\\Content\\assets\\js\\init\\datatables-init.js"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\assets\\js\\init\\flot-chart-init.js",
+      "PackagePath": "staticwebassets\\Content\\assets\\js\\init\\flot-chart-init.js"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\assets\\js\\init\\fullcalendar-init.js",
+      "PackagePath": "staticwebassets\\Content\\assets\\js\\init\\fullcalendar-init.js"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\assets\\js\\init\\gmap-init.js",
+      "PackagePath": "staticwebassets\\Content\\assets\\js\\init\\gmap-init.js"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\assets\\js\\init\\peitychart-init.js",
+      "PackagePath": "staticwebassets\\Content\\assets\\js\\init\\peitychart-init.js"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\assets\\js\\init\\vector-init.js",
+      "PackagePath": "staticwebassets\\Content\\assets\\js\\init\\vector-init.js"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\assets\\js\\init\\weather-init.js",
+      "PackagePath": "staticwebassets\\Content\\assets\\js\\init\\weather-init.js"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\assets\\js\\lib\\chosen\\chosen.jquery.js",
+      "PackagePath": "staticwebassets\\Content\\assets\\js\\lib\\chosen\\chosen.jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\assets\\js\\lib\\chosen\\chosen.jquery.min.js",
+      "PackagePath": "staticwebassets\\Content\\assets\\js\\lib\\chosen\\chosen.jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\assets\\js\\lib\\chosen\\chosen.proto.js",
+      "PackagePath": "staticwebassets\\Content\\assets\\js\\lib\\chosen\\chosen.proto.js"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\assets\\js\\lib\\chosen\\chosen.proto.min.js",
+      "PackagePath": "staticwebassets\\Content\\assets\\js\\lib\\chosen\\chosen.proto.min.js"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\assets\\js\\lib\\data-table\\buttons.bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Content\\assets\\js\\lib\\data-table\\buttons.bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\assets\\js\\lib\\data-table\\buttons.colVis.min.js",
+      "PackagePath": "staticwebassets\\Content\\assets\\js\\lib\\data-table\\buttons.colVis.min.js"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\assets\\js\\lib\\data-table\\buttons.flash.min.js",
+      "PackagePath": "staticwebassets\\Content\\assets\\js\\lib\\data-table\\buttons.flash.min.js"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\assets\\js\\lib\\data-table\\buttons.html5.min.js",
+      "PackagePath": "staticwebassets\\Content\\assets\\js\\lib\\data-table\\buttons.html5.min.js"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\assets\\js\\lib\\data-table\\buttons.print.min.js",
+      "PackagePath": "staticwebassets\\Content\\assets\\js\\lib\\data-table\\buttons.print.min.js"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\assets\\js\\lib\\data-table\\dataTables.bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Content\\assets\\js\\lib\\data-table\\dataTables.bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\assets\\js\\lib\\data-table\\dataTables.buttons.min.js",
+      "PackagePath": "staticwebassets\\Content\\assets\\js\\lib\\data-table\\dataTables.buttons.min.js"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\assets\\js\\lib\\data-table\\datatables.min.js",
+      "PackagePath": "staticwebassets\\Content\\assets\\js\\lib\\data-table\\datatables.min.js"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\assets\\js\\lib\\data-table\\jquery-1.12.4.js",
+      "PackagePath": "staticwebassets\\Content\\assets\\js\\lib\\data-table\\jquery-1.12.4.js"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\assets\\js\\lib\\data-table\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\Content\\assets\\js\\lib\\data-table\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\assets\\js\\lib\\data-table\\jszip.min.js",
+      "PackagePath": "staticwebassets\\Content\\assets\\js\\lib\\data-table\\jszip.min.js"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\assets\\js\\lib\\data-table\\pdfmake.min.js",
+      "PackagePath": "staticwebassets\\Content\\assets\\js\\lib\\data-table\\pdfmake.min.js"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\assets\\js\\lib\\data-table\\vfs_fonts.js",
+      "PackagePath": "staticwebassets\\Content\\assets\\js\\lib\\data-table\\vfs_fonts.js"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\assets\\js\\lib\\gmap\\gmapApi.js",
+      "PackagePath": "staticwebassets\\Content\\assets\\js\\lib\\gmap\\gmapApi.js"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\assets\\js\\lib\\gmap\\gmaps.js",
+      "PackagePath": "staticwebassets\\Content\\assets\\js\\lib\\gmap\\gmaps.js"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\assets\\js\\lib\\gmap\\gmaps.min.js",
+      "PackagePath": "staticwebassets\\Content\\assets\\js\\lib\\gmap\\gmaps.min.js"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\Content\\assets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\assets\\js\\vmap.sampledata.js",
+      "PackagePath": "staticwebassets\\Content\\assets\\js\\vmap.sampledata.js"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\assets\\js\\widgets.js",
+      "PackagePath": "staticwebassets\\Content\\assets\\js\\widgets.js"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\assets\\scss\\style.css",
+      "PackagePath": "staticwebassets\\Content\\assets\\scss\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\assets\\scss\\style.css.map",
+      "PackagePath": "staticwebassets\\Content\\assets\\scss\\style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\assets\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\Content\\assets\\scss\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\images\\.gitignore",
+      "PackagePath": "staticwebassets\\Content\\images\\.gitignore"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\images\\admin.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\admin.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\images\\avatar\\1.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\avatar\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\images\\avatar\\2.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\avatar\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\images\\avatar\\3.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\avatar\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\images\\avatar\\4.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\avatar\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\images\\avatar\\5.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\avatar\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\images\\avatar\\6.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\avatar\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\images\\avatar\\64-1.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\avatar\\64-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\images\\avatar\\64-2.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\avatar\\64-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\Content\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\images\\logo.png",
+      "PackagePath": "staticwebassets\\Content\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\images\\logo.psd",
+      "PackagePath": "staticwebassets\\Content\\images\\logo.psd"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Content\\images\\logo2.png",
+      "PackagePath": "staticwebassets\\Content\\images\\logo2.png"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Uploads\\13e0aebf_b9ac_4004_b3e9_9b1139f91e39.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\13e0aebf_b9ac_4004_b3e9_9b1139f91e39.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Uploads\\49620823_a178_42cd_9cf1_d27342903087.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\49620823_a178_42cd_9cf1_d27342903087.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Uploads\\94392695_6edb_4d17_9833_554c505b3f9b.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\94392695_6edb_4d17_9833_554c505b3f9b.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\Uploads\\bf6fe501_d77d_4873_9126_ea32cd206868.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\bf6fe501_d77d_4873_9126_ea32cd206868.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\cgr_g\\Desktop\\MVC\\StokProject\\StokProject.UI\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.StokProject.UI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.StokProject.UI.props",
+      "PackagePath": "build\\StokProject.UI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.StokProject.UI.props",
+      "PackagePath": "buildMultiTargeting\\StokProject.UI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.StokProject.UI.props",
+      "PackagePath": "buildTransitive\\StokProject.UI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

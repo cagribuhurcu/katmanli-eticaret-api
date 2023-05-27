@@ -1,0 +1,53 @@
+﻿@using System.Security.Claims;
+<!-- Header-->
+<header id="header" class="header">
+    <div class="top-left">
+        <div class="navbar-header">
+            <a class="navbar-brand" asp-controller="Admin" asp-action="Index" asp-area="Admin"><img src="/Content/images/logo.png" alt="Logo"></a>
+            <a class="navbar-brand hidden" asp-controller="Admin" asp-action="Index" asp-area="Admin"><img src="/Content/images/logo2.png" alt="Logo"></a>
+            <a id="menuToggle" class="menutoggle"><i class="fa fa-bars"></i></a>
+        </div>
+    </div>
+    <div class="top-right">
+        <div class="header-menu">
+            <div class="header-left">
+
+
+                <div class="mt-3">
+                    <p class="red">@Context.User.FindFirst(ClaimTypes.Name)?.Value @Context.User.FindFirst(ClaimTypes.Surname)?.Value</p>
+                </div>
+
+            </div>
+            <div class="user-area dropdown float-right">
+                <a href="#" class="dropdown-toggle active" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img class="user-avatar rounded-circle" src="@Context.User.FindFirst("PhotoURL")?.Value" alt="User Avatar">
+                </a>
+
+                <div class="user-menu bg-danger dropdown-menu">
+                    <a class="nav-link text-white" asp-controller="Home" asp-action="Logout" asp-area=""><i class="fa fa-power-off"></i>Logout</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</header>
+<!-- /#header -->
+
+<!-- Content -->
+<!-- /.content -->
+
+<div class="clearfix"></div>
+<!-- Footer -->
+<footer class="site-footer">
+    <div class="footer-inner bg-white">
+        <div class="row">
+            <div class="col-sm-6">
+                Copyright &copy; 2018 Ela Admin
+            </div>
+            <div class="col-sm-6 text-right">
+                Designed by <a href="https://colorlib.com">Colorlib</a>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- /.site-footer -->

@@ -1,0 +1,53 @@
+﻿@model IEnumerable<StokProject.Entities.Entities.Product>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="col-lg-12">
+    <div class="card">
+        <div class="card-header d-flex justify-content-between">
+            <strong class="card-title">Tüm Kategoriler</strong>
+            <a asp-area="Admin" asp-controller="Product" asp-action="AddProduct" class="btn btn-success">Ürün Ekle</a>
+        </div>
+        <div class="card-body">
+            <table class="table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Ürün adı</th>
+                        <th scope="col">Fiyat</th>
+                        <th scope="col">Stok</th>
+                        <th scope="col">Son Tarih</th>
+                        <th scope="col">Kategori</th>
+                        <th scope="col">Tedarikçi</th>
+                        <th scope="col">İşlemler</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @{
+                        int rowCount = 1;
+                    }
+                    @foreach (StokProject.Entities.Entities.Product item in Model)
+                    {
+                        <tr>
+                            <th scope="row">@rowCount</th>
+                            <td>@item.ProductName</td>
+                            <td>@item.UnitPrice</td>
+                            <td>@item.Stock</td>
+                            <td>@item.ExpireDate</td>
+                            <td>@item.CategoryID</td>
+                            <td>@item.SupplierID</td>
+                            <td>
+                                <a asp-area="Admin" asp-controller="Product" asp-action="UpdateProduct" asp-route-id="@item.ID" class="btn btn-warning">Güncelle</a>
+                                <a asp-area="Admin" asp-controller="Product" asp-action="DeleteProduct" asp-route-id="@item.ID" class="btn btn-danger">Sil</a>
+                            </td>
+                        </tr>
+                        rowCount++;
+                    }
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+</div>

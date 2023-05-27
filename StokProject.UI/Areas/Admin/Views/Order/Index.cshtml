@@ -1,0 +1,284 @@
+﻿@using StokProject.Entities.Entities;
+@model IEnumerable<Order>
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+}
+
+<div class="modal fade hidden" id="orderDetailsModal" tabindex="-1" role="dialog" aria-labelledby="orderDetailsModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="orderDetailsModalLabel">Sipariş Detayları</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" id="orderDetailsModalBody">
+                <h1>Başarılı</h1>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Kapat</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@*<div class="modal fade" id="orderDetailsModal" tabindex="-1" role="dialog" aria-labelledby="orderDetailsModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <h1>Başarılı</h1>
+        </div>
+    </div>
+</div>*@
+
+<!-- /# column -->
+<div class="col-lg-12">
+    <div class="card">
+        <div class="card-header">
+            <div class="align-items-lg-end">
+                <strong class="card-title">Sipariş Listesi</strong>
+            </div>
+        </div>
+        <div class="card-body">
+            <div class="custom-tab">
+                <nav>
+                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                        <a class="nav-item nav-link active" id="custom-nav-pending-orders" data-toggle="tab" href="#custom-nav-pending" role="tab" aria-controls="custom-nav-pending" aria-selected="true">Bekleyen Siparişler</a>
+
+                        <a class="nav-item nav-link" id="custom-nav-confirmed-orders" data-toggle="tab" href="#custom-nav-confirmed" role="tab" aria-controls="custom-nav-confirmed" aria-selected="false">Onaylanmış Siparişler</a>
+
+                        <a class="nav-item nav-link" id="custom-nav-cancelled-orders" data-toggle="tab" href="#custom-nav-cancelled" role="tab" aria-controls="custom-nav-cancelled" aria-selected="false">Reddedilen Siparişler</a>
+                    </div>
+                </nav>
+                <div class="tab-content pl-3 pt-2" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="custom-nav-pending" role="tabpanel" aria-labelledby="custom-nav-pending-orders">
+                        <div class="card">
+                            <div class="card-header">
+                            </div>
+                            <div class="card-body">
+                                <table id="bootstrap-data-table" class="table table-striped table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">#</th>
+                                            <th scope="col">Sipariş Tarihi</th>
+                                            <th scope="col">Müşteri</th>
+                                            <th scope="col">Toplam Tutar</th>
+                                            <th scope="col">Sipariş Durumu</th>
+                                            <th scope="col">İşlemler</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @{
+                                            int rowCount = 1;
+                                        }
+                                        @foreach (Order item in Model)
+                                        {
+
+                                            if (item.Status == StokProject.Entities.Enums.Status.Pending)
+                                            {
+                                                <tr>
+                                                    <th scope="row">@rowCount</th>
+                                                    <td>@item.AddedDate</td>
+                                                    <td>@item.Kullanici.FirstName @item.Kullanici.LastName</td>
+                                                    <td>
+                                                        @{
+                                                            decimal toplamTutar = 0;
+                                                            foreach (OrderDetails detay in item.SiparisDetaylari)
+                                                            {
+                                                                toplamTutar += (detay.Quantity * detay.UnitPrice);
+                                                            }
+                                                            <span>@toplamTutar.ToString() TL</span>
+                                                        }
+                                                    </td>
+
+                                                    <td class="bg-warning">Bekliyor</td>
+                                                    <td>
+                                                        <button class="btn btn-sm btn-warning btnDetail" value="@item.ID" data-toggle="modal" data-target="#exampleModalCenter">
+                                                            Detay
+                                                        </button>
+                                                        <a asp-area="Admin" asp-controller="Order" asp-action="ConfirmOrder" asp-route-id="@item.ID" class="btn btn-sm btn-success">Onayla</a>
+                                                        <a asp-area="Admin" asp-controller="Order" asp-action="CancelOrder" asp-route-id="@item.ID" class="btn btn-sm btn-danger">Reddet</a>
+                                                    </td>
+                                                </tr>
+                                                rowCount++;
+                                            }
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade show" id="custom-nav-confirmed" role="tabpanel" aria-labelledby="custom-nav-confirmed-orders">
+                        <div class="card">
+                            <div class="card-header">
+                            </div>
+                            <div class="card-body">
+                                <table id="bootstrap-data-table" class="table table-striped table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">#</th>
+                                            <th scope="col">Sipariş Tarihi</th>
+                                            <th scope="col">Müşteri</th>
+                                            <th scope="col">Toplam Tutar</th>
+                                            <th scope="col">Sipariş Durumu</th>
+                                            <th scope="col">İşlemler</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @{
+                                            int rowCount2 = 1;
+                                        }
+                                        @foreach (Order item in Model)
+                                        {
+                                            if (item.Status == StokProject.Entities.Enums.Status.Confirmed)
+                                            {
+                                                <tr>
+                                                    <th scope="row">@rowCount2</th>
+                                                    <td>@item.AddedDate.ToShortDateString()</td>
+                                                    <td>@item.Kullanici.FirstName @item.Kullanici.LastName</td>
+                                                    <td>
+                                                        @{
+                                                            decimal toplamTutar = 0;
+                                                            foreach (OrderDetails detay in item.SiparisDetaylari)
+                                                            {
+                                                                toplamTutar += (detay.Quantity * detay.UnitPrice);
+                                                            }
+                                                            <span>@toplamTutar.ToString() TL</span>
+                                                        }
+                                                    </td>
+                                                    <td class="bg-success">Onaylandı</td>
+                                                    <td>
+                                                        <button class="btn btn-sm btn-warning btnDetail" value="@item.ID" data-toggle="modal" data-target="#exampleModalCenter">
+                                                            Detay
+                                                        </button>
+                                                    </td>
+                                                </tr>
+                                                rowCount2++;
+                                            }
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade show" id="custom-nav-cancelled" role="tabpanel" aria-labelledby="custom-nav-cancelled-orders">
+                        <div class="card">
+                            <div class="card-header">
+                            </div>
+                            <div class="card-body">
+                                <table id="bootstrap-data-table" class="table table-striped table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">#</th>
+                                            <th scope="col">Sipariş Tarihi</th>
+                                            <th scope="col">Müşteri</th>
+                                            <th scope="col">Toplam Tutar</th>
+                                            <th scope="col">Sipariş Durumu</th>
+                                            <th scope="col">İşlemler</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @{
+                                            int rowCount3 = 1;
+                                        }
+                                        @foreach (Order item in Model)
+                                        {
+                                            if (item.Status == StokProject.Entities.Enums.Status.Canceled)
+                                            {
+                                                <tr>
+                                                    <th scope="row">@rowCount3</th>
+                                                    <td>@item.AddedDate</td>
+                                                    <td>@item.Kullanici.FirstName @item.Kullanici.LastName</td>
+                                                    <td>
+                                                        @{
+                                                            decimal toplamTutar = 0;
+                                                            foreach (OrderDetails detay in item.SiparisDetaylari)
+                                                            {
+                                                                toplamTutar += (detay.Quantity * detay.UnitPrice);
+                                                            }
+                                                            <span>@toplamTutar.ToString() TL</span>
+                                                        }
+                                                    </td>
+                                                    <td class="bg-danger">Reddedildi</td>
+                                                    <td>
+                                                        <button class="btn btn-sm btn-warning btnDetail" value="@item.ID" data-toggle="modal" data-target="#exampleModalCenter">
+                                                            Detay
+                                                        </button>
+                                                    </td>
+                                                </tr>
+                                                rowCount3++;
+                                            }
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalCenterTitle">Sipariş Detay</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" id="exampleModalCenterBody">
+                <table class="table table-hover table-bordored">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Miktar</th>
+                            <th>Birim Fiyat</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tablo">
+                    </tbody>
+                </table>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                @*<button type="button" class="btn btn-primary">Save changes</button>*@
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            $('.btnDetail').click(function () {
+                var id = $(this).val();
+
+                $.ajax({
+                    url: "/Admin/Order/DetailsOrder/" + id,
+                    type: "GET",
+                    success: function (response) {
+                        $('#tablo').html('');
+                        $.each(response, function (index, item) {
+                            $('#tablo').append('<tr><td>' + item.id + '</td><td>' + item.quantity + '</td><td>' + item.unitPrice + '</td></tr>');
+                        });
+                        $('#exampleModalCenter').modal('show');
+                    },
+                    error: function () {
+                        // Hata durumunda yapılacak işlemler
+                    }
+                });
+            });
+        });
+    </script>
+}
+
+
+
